@@ -38,7 +38,7 @@ keyAlias=your_alias_name
 storeFile=../../your_keystore_name.jks
 ```
 
-**Ensure `storeFile` points to the correct path.** 
+**Ensure `storeFile` points to the correct path. If the given `storeFile=../../your_keystore_name.jks` throws errors and build fails for somehow, then change to original path of jks file. i.e. `C:/Folder/path_of_jks`. The syntax must be as I have given and not like default `C:\Folder\path_of_jks` as it may give errors sometimes** 
 
 ### Step 3: Modify app/build.gradle
 
